@@ -1,0 +1,27 @@
+//PRN: 22070123099
+//EXP.12
+//NAME:SANUSHA MENON
+
+//Defining parametrized constructor
+#include<iostream>
+using namespace std;
+
+class Num{
+    //int a=6, b=10;
+    public:
+    Num(int c, int d){
+        if(c>d){
+            cout<<c<<" is greater";
+        }
+        else{
+            cout<<d<<" is greater";
+        }
+    }
+};
+
+int main(){
+    Num n1(2,9);
+}
+/*/OUTPUT:
+9 is greater
+/*/
