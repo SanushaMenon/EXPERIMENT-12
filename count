@@ -1,0 +1,34 @@
+//PRN: 22070123099
+//EXP.12
+//NAME:SANUSHA MENON
+
+#include<iostream>
+using namespace std;
+
+int count=0;
+class temp{
+    public:
+    temp(){
+        count++;
+        cout<<"Count: "<<count<<endl;
+    }
+    ~temp(){
+        count--;
+        cout<<"Count: "<<count<<endl;
+    }
+};
+
+int main(){
+    temp t1, t2, t3;
+    temp t4;
+}
+/*/OUTPUT:
+Count: 1
+Count: 2
+Count: 3
+Count: 4
+Count: 3
+Count: 2
+Count: 1
+Count: 0
+  /*/
