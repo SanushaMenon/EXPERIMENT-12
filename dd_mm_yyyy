@@ -1,0 +1,33 @@
+//PRN: 22070123099
+//EXP.12
+//NAME:SANUSHA MENON
+
+//Printing date using constructor
+#include<iostream>
+using namespace std;
+
+class Date{
+    int d, m, y;
+    public:
+    Date(){
+        cout<<"Date(dd): ";
+        cin>>d;
+        cout<<"Month(mm): ";
+        cin>>m;
+        cout<<"Year(yyyy): ";
+        cin>>y;
+
+        cout<<endl<<d<<"/"<<m<<"/"<<y;
+    }
+};
+
+int main(){
+    Date d2;
+}
+
+/*/OUTPUT
+Date(dd): 08
+Month(mm): 12
+Year(yyyy): 2004
+8/12/2004
+/*/
